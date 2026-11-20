@@ -1,4 +1,4 @@
-numero = int(input("digite um numero: "))
-
+numero = int(input('digite um numero: '))
 for i in range(1, 11):
-    print(numero, "x", i, "=", numero * i)
+    
+    print(f'{numero} x {i} = {numero * i}')
